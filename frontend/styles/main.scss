@@ -1,0 +1,152 @@
+// html
+html {
+  scroll-behavior: smooth;
+}
+//navbar
+.navbar-brand{
+    img {
+    max-height: 71px;
+    }
+}
+
+body {
+    background-color: #fff;
+}
+
+.navbar-light {
+    background-color: #192A56 !important;
+}
+
+.navbar-light{
+    .navbar-nav{
+        .nav-link {
+            font-family: 'Assistant', sans-serif;
+            font-weight: lighter; 
+            color: #80b0dc    !important;
+            &:hover {
+            color: #487EB0 !important; 
+            } 
+        }
+        
+    }
+}
+
+//section 1
+header{
+    padding: 262px 0px 262px;
+    margin-top: -68px;
+    background-image: url("../images/Section\ 1.jpg");
+    background-size: cover;
+    h1{
+        color: #fff;
+        }
+    
+        h1{
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        font-size: 50px;
+        }
+}
+
+//section 2
+main {
+    section {
+        background-color: #192A56;
+        
+
+        h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 35px;
+            font-weight: normal;
+            color: #fff;
+        }
+
+        p {
+            font-family: 'Assistant', sans-serif; 
+            font-weight: normal;
+            font-size: 18px;
+            color: #fff;
+        }
+
+        img {
+            width: 100%;
+        }
+    }
+        .container {
+            padding-top: 25px;
+        }
+}
+
+//section 3
+.section-3-heading {
+    background-color: #fff;
+    padding-top: 20px;
+    min-height: 100px;
+  
+    h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 35px;
+      color: #487EB0;
+    }
+  }
+  
+  .section-3-content {
+    background-color: #fff ;
+    margin-top: 0px;
+    padding-bottom: 50px;
+  
+    .jenis-belajar {
+      padding: 40px 20px 10px;
+      border-radius: 20px;
+      border-width : 3px;
+      border-color: #192A56;
+      margin-bottom: 20px;
+  
+      .jenis-belajar-content {
+        min-height: 380px;
+      }
+
+      img{
+          max-width: 240px;
+      }
+  
+      h3 {
+        font-size: 20px;
+        font-family: 'Assistant', sans-serif; 
+        font-weight: 600; 
+        color: #487EB0;
+      }
+  
+      .definisi {
+        font-size: 16px;
+        font-family: 'Assistant', sans-serif; 
+        font-weight: 400; 
+        color: #487EB0;
+      }
+  
+      .contoh {
+        font-size: 16px;
+        font-family: 'Assistant', sans-serif; 
+        font-weight: 400; 
+        color: #487EB0;
+      }
+
+    }
+  
+  }
+
+  //footer
+  footer{
+     .container-fluid {
+        background-color: #192A56;
+     }
+      
+      .pembuat {
+        font-family: 'Assistant', sans-serif; 
+        font-size: 18px;
+        color: #487EB0;
+      }
+      
+  }
+
+
